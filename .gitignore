@@ -1,0 +1,50 @@
+# Ignore terraform state files
+*.tfstate
+*.tfstate.*
+
+# Ignore crash logs
+crash.log
+
+# Ignore core and crash files
+*.core
+
+# Ignore backup files created by Terraform
+*.tfstate.backup
+*.backup
+
+# Ignore the .terraform directory and the .terraform.lock.hcl file
+.terraform/
+.terraform.lock.hcl
+
+# Ignore plan output files
+*.tfplan
+*.plan
+
+# Ignore any sensitive files
+*.pem
+*.key
+*.cer
+
+# Ignore provider override files (useful for local testing)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore variables files that may contain sensitive information
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Ignore environment variable files (e.g., for secrets)
+.env
+.env.*
+
+# Ignore generated SSH key files
+*.pub
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+*.txt
+*.py
